@@ -1,11 +1,15 @@
 import React from 'react';
 import Navbar from '../../navbar';
 import Footer from '../../footer';
+import './CS.css'
 function CS() {
   return (
     <div className="CS">
       <Navbar />
-      <h1>This is the CS Page</h1>
+      
+      <h1>
+        Hello Sid Pelluru
+      </h1>
       <Footer />
     </div>
   );

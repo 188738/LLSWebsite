@@ -1,0 +1,79 @@
+/* Reset the body and HTML margins and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure consistent box model */
+  }
+  
+  /* Parent container reset (if any) */
+  .App-header {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar container */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Spread items evenly */
+    width: 100%; /* Full-width navbar */
+    height: 80px; /* Height of the navbar */
+    background-color: white; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for separation */
+    padding: 0 40px; /* Add horizontal padding */
+    position: fixed; /* Stick to the top */
+    top: 0;
+    z-index: 1000; /* Ensure it stays above other elements */
+  }
+  
+  /* Logo styling */
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif; /* Clean font */
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar .logo img {
+    height: 40px; /* Adjust logo size */
+    margin-right: 10px; /* Space between logo and text */
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    display: flex;
+    list-style: none; /* Remove bullet points */
+    gap: 50px; /* Space between links */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .nav-links a {
+    color: black;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .nav-links a:hover {
+    color: red; /* Change color on hover */
+  }
+  
+  /* User icon styling */
+  .navbar .user-icon {
+    font-size: 24px; /* Adjust icon size */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .navbar .user-icon:hover {
+    color: gray; /* Icon color change on hover */
+  }
+  
