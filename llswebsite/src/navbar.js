@@ -11,8 +11,8 @@ function Navbar() {
           <li><a href="/">Home</a></li>
           <li><a href="/CS">ECS</a></li>
           <li><a href="/JSOM">JSOM</a></li>
-          <li><a href="#premed">Pre-Health</a></li>
-          <li><a href="#prelaw">Pre-Law</a></li>
+          <li><a href="/PreHealth">Pre-Health</a></li>
+          <li><a href="PreLaw">Pre-Law</a></li>
           <li><a href="ATECH">ATECH</a></li>
         </ul>
       </nav>
