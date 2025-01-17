@@ -1,4 +1,98 @@
 .CS {
-    padding-top: 80px; /* Same height as the navbar */
+    padding-top: 80px;
+    background-color: #F4B6B6;
+    height: 110vh; /* Ensures the element takes the full height of the viewport */
+    margin: 0; /* Removes any default margin */
 }
-  
+
+.header-for-ECS-page{
+    color: #D40000; /* Light text color */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 2rem 0;
+    letter-spacing: -0.5px;
+}
+
+/* Container to hold all three cards in a row */
+.card-container {
+    display: flex;
+    justify-content: space-between; /* Distribute the cards with space between */
+    align-items: center; /* Centers the cards vertically */
+    gap: 20px; /* Adds spacing between the cards */
+    height: 65vh; /* Makes sure it fills the full viewport height */
+    padding: 0 40px; /* Optional padding for container edges */
+}
+
+/* General card styling */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2); /* Add shadows to create the "card" effect */
+    transition: all 0.3s ease;
+    border-radius: 5px; /* Optional: Add rounded corners */
+    overflow: hidden; /* Ensure child elements stay inside the card */
+    background: white; /* White background for the cards */
+    width: 300px; /* Define a fixed width for the card */
+    height: 400px; /* Define a fixed height for all cards to ensure same size */
+    padding: 16px; /* Adds some padding inside the cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures the title and description are spaced properly */
+}
+
+/* Hover effect */
+.card:hover { 
+    box-shadow: 0 8px 16px 0 rgba(178, 34, 34, 1); /* On mouse-over, add a deeper shadow */
+}
+
+/* Left, Middle, and Right cards - using same background properties */
+.card-left,
+.card-middle,
+.card-right {
+    background: white; /* White background for the left, middle, and right cards */
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2); /* Soft shadow */
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px; /* Ensures each card has the same width */
+    height: 400px; /* Ensures all cards have the same height */
+}
+
+/* Hover effect for all three cards */
+.card-left:hover,
+.card-middle:hover,
+.card-right:hover {
+    box-shadow: 0 8px 16px 0 rgba(178, 34, 34, 1); /* Adds shadow effect on hover */
+}
+
+/* Padding inside the card container */
+.container {
+    padding: 16px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; /* Darker text for titles */
+}
+
+.card-description {
+    color: #000000; /* Lighter text for descriptions */
+    font-size: 16px;
+    line-height: 1.6; /* Increases line spacing for better readability */
+}
+
+/* Specific styling for the left, middle, and right cards */
+.card-left {
+    background: #ffffff; /* Ensures consistent white background */
+}
+
+.card-middle {
+    background: #ffffff; /* Ensures consistent white background */
+}
+
+.card-right {
+    background: #ffffff; /* Ensures consistent white background */
+}

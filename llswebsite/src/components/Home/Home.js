@@ -23,11 +23,7 @@ function HomePage() {
           <h2>
             Our mission at the Leukemia and Lymphoma Society is to raise awareness about blood cancers and engage as many college students as possible in our efforts. There are countless ways to get involved, and we welcome students from all majors and backgrounds. No matter your skill set, we have opportunities for you to contribute and make a meaningful impact in the fight against blood cancer.
           </h2>
-          <div className="buttons">
-            <button className="btn">General</button>
-            <button className="btn">Apply to Officer</button>
-            <button className="btn">Donate</button>
-          </div>
+          
         </section>
 
        

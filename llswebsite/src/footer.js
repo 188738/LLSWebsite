@@ -2,8 +2,7 @@ function Footer() {
     return (
       <footer className="footer">
         <div className="footer-links">
-          <a href="/About">About Us</a> 
-          <a href="#contact">Contact Info</a>
+          <a href="/Contact">Contact Info</a>
         </div>
       </footer>
     );

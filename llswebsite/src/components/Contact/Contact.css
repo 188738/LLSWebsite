@@ -1,0 +1,49 @@
+.Contact {
+    padding-top: 80px; /* Same height as the navbar */
+    background-color: #f9f9f9; /* Light background for contrast */
+    min-height: 100vh;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark blue color */
+    text-align: center;
+  }
+  
+  .board-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+  }
+  
+  .member-card {
+    background-color: #b85b5b; /* White background for the card */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(62, 17, 196, 0.1); /* Soft shadow */
+    width: 300px; /* Card width */
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Hover effect */
+  }
+  
+  .member-card:hover {
+    transform: translateY(-5px); /* Lift on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  }
+  
+  .member-card h3 {
+    font-size: 1.5rem;
+    color: #34495e; /* Slightly muted blue */
+    margin-bottom: 10px;
+  }
+  
+  .member-card p {
+    font-size: 1rem;
+    color: #555; /* Gray text for details */
+    margin: 5px 0;
+  }
+  
