@@ -19,10 +19,10 @@ function HomePage() {
       {/* Main Content */}
       <main className="content">
         <section className="hero">
-          <h1>LLS</h1>
-          <h2>
-            Our mission at the Leukemia and Lymphoma Society is to raise awareness about blood cancers and engage as many college students as possible in our efforts. There are countless ways to get involved, and we welcome students from all majors and backgrounds. No matter your skill set, we have opportunities for you to contribute and make a meaningful impact in the fight against blood cancer.
-          </h2>
+          <h1>Leukemia and Lymphoma Society</h1>
+          <h3>
+            Our mission at the Leukemia and Lymphoma Society (LLS) is to raise awareness about blood cancers and engage as many college students as possible in our efforts. There are countless ways to get involved, and we welcome students from all majors and backgrounds. No matter your skill set, we have opportunities for you to contribute and make a meaningful impact in the fight against blood cancer.
+          </h3>
           
         </section>
         
